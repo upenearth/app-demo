@@ -10,6 +10,6 @@ public class AppRestController {
 
     @GetMapping
     public String getMessage() {
-        return "Hello-World";
+        return "Hello Everyone";
     }
 }
