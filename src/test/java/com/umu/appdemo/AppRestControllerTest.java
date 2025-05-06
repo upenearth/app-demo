@@ -10,6 +10,6 @@ public class AppRestControllerTest {
     public void test_get_message() {
         AppRestController appRestController = new AppRestController();
         String message = appRestController.getMessage();
-        assertThat(message, is("Hello-World"));
+        assertThat(message, is("Hello Everyone"));
     }
 }
